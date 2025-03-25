@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+
+.container { 
+    text-align: center;
+}
+
+.sign_inup {
+    display: block;
+    background-color: #0099ff;
+    color: white;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.btn_inp {
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 300px;
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    background-color: black;
+}
+
+.btn_sub {
+    transition: background-color 0.5s, color 0.5s;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    width: 100px;
+    height: 30px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.btn_sub:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn_sub:active {
+    color: white;
+    background-color: black;
+}
